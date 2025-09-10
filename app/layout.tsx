@@ -28,14 +28,14 @@ export default function RootLayout({
       <body className="font-serif">
         <nav className="flex h-[7vh] items-center space-x-10 justify-center">
           <Link href={"/"}>Home</Link>
-          <Link href={"/about"}>About</Link>
           <Link href={"/blog"}>Blog</Link>
           <Link href={"/contact"}>Contact</Link>
         </nav>
         {children}
 
-
-
+        <footer className="w-[100vw] h-[200px] bg-blue-950">
+          Something
+        </footer>
 
       </body>
     </html>
